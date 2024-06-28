@@ -11,9 +11,9 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         @livewireStyles
     </head>
-    <body>
+    <body class="bg-gradient-to-r from-purple-100 via-gray-500 to-red-300">
         @include('partials.navbar')
-        <main>
+        <main class="min-h-screen">
             {{ $slot }}
         </main>
         @include('partials.footer')
