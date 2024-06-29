@@ -7,7 +7,8 @@
 
         <meta name="description" content="FreeAgent Hub is a platform  where you can post jobs and projects. You will find great talents for your projects here. It is a collaborative platform. There is opportunities for talents. ">
         <title>{{ $title ?? 'FreeAgent Hub' }}</title>
-
+        <link rel="stylesheet" href="./build/assets/app-BG5WG0Uz.css">
+        <script src="./build/assets/app.6JcJmGPt-js"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         @livewireStyles
     </head>

@@ -11,6 +11,7 @@ class Login extends Component
     public $email;
     public $password;
     public $errmessage;
+    public $usertype;
     public function render()
     {
         return view('livewire.login');
@@ -18,12 +19,8 @@ class Login extends Component
 
     public function login()
     {
-        $user = user::where('email', $this->email)->first();
-        if (!$user || !Hash::check($this->password, $user->password)) {
-            $this->errmessage = 'Invalid credentials';
-        } else {
-            auth()->login($user);
-            return redirect()->intended('/');
+        if(auth()->attempt(['email' => $this->email, 'password' => $this->password])){
+            return redirect()->to('/profile');
         }
     }
 
