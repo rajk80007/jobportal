@@ -27,10 +27,12 @@
             <button
                 class="border border-white px-2  lg:px-3 py-1 rounded hover:bg-blue-600 bg-gradient-to-r from-blue-500 to-black hover:scale-105 hover:font-bold duration-400 text-sm lg:text-[0.9rem]">
                 <a href="/login" wire:navigate> Get a Job </a></button>
+            <button
+                class="hidden lg:block bg-white text-purple-900 font-bold hover:scale-105 px-3 py-1 rounded text-sm lg:text-[0.8] ">Post
+                a Project</button>
         @endif
-        <button
-            class="hidden lg:block bg-white text-purple-900 font-bold hover:scale-105 px-3 py-1 rounded text-sm lg:text-[0.8] ">Post
-            a Project</button>
+       
+       
     </div>
 
     <script>
