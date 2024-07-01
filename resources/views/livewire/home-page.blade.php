@@ -2,18 +2,14 @@
     {{-- Hero Section Starts --}}
 
     <section class="pt-20 md:pt-40">
-        <div class="container mx-auto px-8 lg:flex">
+        <div class="container px-8 mx-auto lg:flex">
             <div class="text-center lg:text-left lg:w-1/2">
-                <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Main title of your landing page</h1>
-                <p class="text-xl lg:text-2xl mt-6 font-light">Free landing page template to promote your business startup
+                <h1 class="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">Main title of your landing page</h1>
+                <p class="mt-6 text-xl font-light lg:text-2xl">Free landing page template to promote your business
+                    startup
                     and generate leads for the offered services</p>
-                <p class="mt-8 md:mt-12"><button type="button" class="
-            py-4 px-12
-            
-            bg-teal-500
-            hover:bg-teal-600
-            rounded
-            text-white">Get Started</button>
+                <p class="mt-8 md:mt-12"><button type="button"
+                        class="px-12 py-4 text-white bg-teal-500 rounded hover:bg-teal-600">Get Started</button>
                 </p>
                 <p class="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
             </div>
@@ -28,7 +24,8 @@
                         </linearGradient>
                         <linearGradient id="b" x1="568.69" y1="1179.83" x2="568.69" y2="1173.83"
                             gradientTransform="translate(73.48 -1003.15)" xlink:href="#a"></linearGradient>
-                        <linearGradient id="c" x1="995.74" y1="822.32" x2="995.74" y2="622.1" xlink:href="#a">
+                        <linearGradient id="c" x1="995.74" y1="822.32" x2="995.74" y2="622.1"
+                            xlink:href="#a">
                         </linearGradient>
                         <linearGradient id="d" x1="355.29" y1="824.58" x2="355.29" y2="603.69"
                             gradientTransform="matrix(-1 0 0 1 965 0)" xlink:href="#a"></linearGradient>
@@ -39,14 +36,14 @@
                         <path
                             d="M1007.26 726.43a18.25 18.25 0 01-1.73 2.67q-8.64-6.09-17.57-11.93c.12-.25.25-.51.39-.77a16.74 16.74 0 016-6.51c3.29-2 7-2.48 10-.86s4.76 4.93 4.94 8.77a16.85 16.85 0 01-2.03 8.63z"
                             fill="#3f3d56"></path>
-                        <ellipse cx="1022.06" cy="779.24" rx="14.01" ry="10.7" transform="rotate(-62.09 953.41 756.26)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="1030.07" cy="764.11" rx="14.01" ry="10.7" transform="rotate(-62.09 961.425 741.122)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="1038.09" cy="748.97" rx="14.01" ry="10.7" transform="rotate(-62.09 969.439 725.984)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="1046.11" cy="733.84" rx="14.01" ry="10.7" transform="rotate(-62.09 977.453 710.846)"
-                            fill="#3f3d56"></ellipse>
+                        <ellipse cx="1022.06" cy="779.24" rx="14.01" ry="10.7"
+                            transform="rotate(-62.09 953.41 756.26)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="1030.07" cy="764.11" rx="14.01" ry="10.7"
+                            transform="rotate(-62.09 961.425 741.122)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="1038.09" cy="748.97" rx="14.01" ry="10.7"
+                            transform="rotate(-62.09 969.439 725.984)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="1046.11" cy="733.84" rx="14.01" ry="10.7"
+                            transform="rotate(-62.09 977.453 710.846)" fill="#3f3d56"></ellipse>
                         <path
                             d="M1049.31 538.53a51.89 51.89 0 01-.78-7l27 9.08-27-14a51.4 51.4 0 0118.23-36.45l26.16 37.81-20.31-42.07a51.28 51.28 0 1148 90.35 51.23 51.23 0 01.8 11l-41.15-.33 40.52 6.67a51.32 51.32 0 01-29.84 38.69 51.28 51.28 0 11-71.23-37.73 51.28 51.28 0 0129.67-56z"
                             fill="#4299e1"></path>
@@ -58,14 +55,14 @@
                         <path
                             d="M975.13 423.96a31 31 0 01-2.25 4.63q-15.12-8.05-30.61-15.66c.14-.43.3-.87.47-1.31a27.32 27.32 0 018.3-11.66c4.87-3.9 10.74-5.37 16-3.38s8.62 7 9.67 13.12a27.21 27.21 0 01-1.58 14.26z"
                             fill="#3f3d56"></path>
-                        <ellipse cx="985.03" cy="464.84" rx="22.69" ry="17.33" transform="rotate(-69.16 924.024 440.128)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="994.89" cy="438.92" rx="22.69" ry="17.33" transform="rotate(-69.16 933.888 414.207)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="1004.76" cy="413.01" rx="22.69" ry="17.33" transform="rotate(-69.16 943.748 388.294)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="1014.62" cy="387.09" rx="22.69" ry="17.33" transform="rotate(-69.16 953.612 362.373)"
-                            fill="#3f3d56"></ellipse>
+                        <ellipse cx="985.03" cy="464.84" rx="22.69" ry="17.33"
+                            transform="rotate(-69.16 924.024 440.128)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="994.89" cy="438.92" rx="22.69" ry="17.33"
+                            transform="rotate(-69.16 933.888 414.207)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="1004.76" cy="413.01" rx="22.69" ry="17.33"
+                            transform="rotate(-69.16 943.748 388.294)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="1014.62" cy="387.09" rx="22.69" ry="17.33"
+                            transform="rotate(-69.16 953.612 362.373)" fill="#3f3d56"></ellipse>
                         <path
                             d="M1005.25 113.7a83.22 83.22 0 01-2.65-11.17l45.22 9.21-46.16-17.18a83.11 83.11 0 0121.91-62l49.56 55.47-41-63.54a83 83 0 1195.09 135.6 83.51 83.51 0 013.46 17.52l-66.17 7.67 66.43 2.65a83.07 83.07 0 01-40.24 68.1 83 83 0 11-122-46.42 83 83 0 0136.52-95.94z"
                             fill="#4299e1"></path>
@@ -77,14 +74,14 @@
                         <path
                             d="M178.38 510.17a37.65 37.65 0 002 5.8q19-7.29 38.43-14c-.11-.53-.22-1.07-.36-1.62a32.46 32.46 0 00-8.07-15c-5.18-5.32-11.89-7.92-18.34-6.34s-11.2 7-13.35 14.05a32.48 32.48 0 00-.31 17.11z"
                             fill="#3f3d56"></path>
-                        <ellipse cx="206.83" cy="546.21" rx="20.61" ry="26.98" transform="rotate(-13.72 -104.628 577.056)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="199.01" cy="514.17" rx="20.61" ry="26.98" transform="rotate(-13.72 -112.456 545.04)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="191.2" cy="482.14" rx="20.61" ry="26.98" transform="rotate(-13.72 -120.278 512.984)"
-                            fill="#3f3d56"></ellipse>
-                        <ellipse cx="183.38" cy="450.11" rx="20.61" ry="26.98" transform="rotate(-13.72 -128.106 480.968)"
-                            fill="#3f3d56"></ellipse>
+                        <ellipse cx="206.83" cy="546.21" rx="20.61" ry="26.98"
+                            transform="rotate(-13.72 -104.628 577.056)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="199.01" cy="514.17" rx="20.61" ry="26.98"
+                            transform="rotate(-13.72 -112.456 545.04)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="191.2" cy="482.14" rx="20.61" ry="26.98"
+                            transform="rotate(-13.72 -120.278 512.984)" fill="#3f3d56"></ellipse>
+                        <ellipse cx="183.38" cy="450.11" rx="20.61" ry="26.98"
+                            transform="rotate(-13.72 -128.106 480.968)" fill="#3f3d56"></ellipse>
                         <path
                             d="M188.58 139.63a97.19 97.19 0 004.78-12.79l-54.71 4.19 57-13.47a98.81 98.81 0 00-16.71-76.43l-66.68 58.24 57.77-68.93a98.72 98.72 0 10-132.2 146 99 99 0 00-6.67 20.15l76.95 18.82-78.78-6.68a98.78 98.78 0 0037.43 86.3 98.72 98.72 0 10150.76-36.79 98.73 98.73 0 00-29-118.59z"
                             fill="#4299e1"></path>
@@ -234,7 +231,8 @@
                         d="M553.62 545.87l.66 3.23v2.5l3.69.38.41-.77a33.82 33.82 0 012.87-4.63c.68-.57 1.89-9.55.43-9a3.88 3.88 0 00-2.05 1.86s-7.32.82-6.01 6.43z"
                         fill="#ffcdd3"></path>
                     <path d="M554.21 551.6l3.69.38.41-.77a3.24 3.24 0 00-4.07-.67z" opacity=".1"></path>
-                    <path d="M553.28 553.34l4.86 1.13.11-.72.27-2a3.34 3.34 0 00-4.71-.64l-.24 1z" fill="#dce6f2"></path>
+                    <path d="M553.28 553.34l4.86 1.13.11-.72.27-2a3.34 3.34 0 00-4.71-.64l-.24 1z" fill="#dce6f2">
+                    </path>
                     <path
                         d="M632.08 546.23l5.19 2.78s.19-.41.47-1c.49-1 1.23-2.59 1.43-3.15.31-.86 2.47-2 2.47-2 5.44-5.19-1-9.65-1-9.65-3.42-6.9-7.24 2.34-7.24 2.34s-.54 4.86-.16 5.19.37 1.66.37 1.66a21 21 0 00-1.25 3c-.2.52-.28.83-.28.83z"
                         fill="#ffcdd3"></path>
@@ -326,4 +324,12 @@
     </section>
 
     {{-- Hero Section Ends --}}
+
+    {{-- Cat Section Starts --}}
+    <div class="my-12">
+
+        <livewire:highlights-page>
+    </div>
+    {{-- Cat Section Ends --}}
+
 </div>
