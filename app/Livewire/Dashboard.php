@@ -47,4 +47,10 @@ class Dashboard extends Component
 
         return view('livewire.dashboard');
     }
+
+    public function edit()
+    {
+       $this->mount($this->user);
+       return redirect()->to('/profile');
+    }
 }

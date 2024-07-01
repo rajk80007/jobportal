@@ -1,14 +1,23 @@
-<div class="container mx-auto px-6 md:px-12 py-10">
+<div class="container mx-auto px-6 md:px-8 py-10">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- User Profile Card -->
 
         <div class="bg-white shadow-md rounded-lg p-6">
+            <h3 class="text-lg font-bold text-gray-800 mb-4">My Dashboard</h3> <a href="/profile" class="relative top-[-60px] right-[-150px] hover:scale-105 cursor-pointer inline-block w-max-content" wire:navigate> <img src="./images/edit.svg" alt="Edit" width="30" ></a>
             <div class="flex items-center space-x-4">
                 <img class="w-16 h-16 rounded-full" src="{{ asset('storage/images/' . Auth::user()->image) }}"
                     alt="User Avatar">
                 <div>
                     <h2 class="text-xl font-bold text-gray-800">{{ Auth::user()->name }}</h2>
                     <p class="text-gray-600">{{ Auth::user()->email }}</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="mt-4">
+                    <div class="text-gray-700 font-bold mx-2 text-justify"><label for="skills" class="font-bold py-1 mx-2">Phone :</label>{{ Auth::user()->phone }}</div>
+                    <div class="text-gray-600 mx-2 text-justify"><label for="skills" class="font-bold py-1 mx-2">Skills :</label>{{ Auth::user()->skills }}</div>
+                    <div class="text-gray-600 mx-2 text-justify"><label for="history" class="font-bold py-1 mx-2">Working History :</label>{{ Auth::user()->history }}</div>
+                    <div class="text-gray-600 mx-2 text-justify"><label for="experience" class="font-bold py-1 mx-2">Experience :</label>{{ Auth::user()->experience>1 ? Auth::user()->experience.' Years' : Auth::user()->experience.' Year' }}</div>
                 </div>
             </div>
         </div>

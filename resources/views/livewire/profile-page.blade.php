@@ -21,9 +21,9 @@
                 @enderror
             </div>
             <div class="my-2 flex justify-between">
-                <label for="Phone" class="font-bold py-1">Phone :</label>
-                <input type="text" id="Phone" class="px-2 py-1 rounded-md w-[80%] bg-gray-500"
-                    placeholder="Your Phone" wire:model="phone">
+                <label for="phone" class="font-bold py-1">Phone :</label>
+                <input type="text" id="phone" class="px-2 py-1 rounded-md w-[80%] bg-gray-500"
+                    placeholder="Your Phone" wire:model="name" value="{{ Auth::user()->phone }}">
             </div>
             <div class="ml-12 my-2 flex justify-between text-white font-bold">
                 (examples : Basic Computer, MS-Office, HTML, Advanced Excel, Hindi Typing)
@@ -31,23 +31,25 @@
             <div class="my-2 flex justify-between">
                 <label for="skills" class="font-bold py-1">Skills :</label>
                 <input type="text" id="skills" class="px-2 py-1 rounded-md w-[80%] bg-gray-500"
-                    placeholder="Your Skills" wire:model="skills">
-            </div class="my-2 flex justify-between">
+                    placeholder="Your Phone" wire:model="name" value="{{ Auth::user()->skills }}">
+            </div>
             <div class="my-2 flex justify-between">
                 <label for="history" class="font-bold py-1 w-[11%]">Working History </label>
-                <textarea type="text" id="history" rows="3" cols="40" class="px-2 py-1 rounded-md w-[65%] bg-gray-500"
-                    wire:model="history" placeholder="working history ">
-                </textarea>
+                <textarea type="text" id="skills" class="px-2 py-1 rounded-md w-[80%] bg-gray-500"
+                    placeholder="Your Phone" wire:model="name" value="{{ Auth::user()->history }}">{{ Auth::user()->history }}</textarea>
             </div>
             <div class="my-2 flex justify-between">
                 <label for="experience" class="font-bold py-1">Experience :</label>
-                <input type="number" id="experience" class="px-2 py-1 rounded-md w-[40%] bg-gray-500"
-                    placeholder="Your Experience" wire:model="experience">
+                <input type="number" id="experience" class="px-2 py-1 rounded-md w-[30%] bg-gray-500"
+                    placeholder="Your Phone" wire:model="name" value="{{ Auth::user()->experience }}">
+
                 <span class="text-sm mr-[20%] text-white font-bold">(year/s)</span>
             </div>
+            
 
             <button type="submit"
                 class="bg-blue-500 text-white px-4 py-2 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Save</button>
         </form>
+        <a href="/dashboard" wire:navigate class="text-center w-[100%] block mt-5 hover:font-bold hover:bg-blue-300 hover:border-2 hover:border-blue-500"> Skipp for now >> </a>
     </div>
 </div>
