@@ -45,8 +45,6 @@
 
                 <span class="text-sm mr-[20%] text-white font-bold">(year/s)</span>
             </div>
-            
-
             <button type="submit"
                 class="bg-blue-500 text-white px-4 py-2 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Save</button>
         </form>

@@ -10,9 +10,10 @@
             <h5>Experience : <span>5 years</span></h5>
             <h6>Rating : <span>5.0</span></h6>
             <h4 class="text-xl font-bold">Skills</h4>
-            <p class="w-32 text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
+            <p class="w-full text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
                 adipisicing
                 elit.</p>
+                <button class="bg-blue-500 text-white px-4 mt-2 py-1 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Hire Me</button>
         </div>
 
         {{-- Temporary Cards --}}
@@ -24,9 +25,10 @@
             <h5>Experience : <span>5 years</span></h5>
             <h6>Rating : <span>5.0</span></h6>
             <h4 class="text-xl font-bold">Skills</h4>
-            <p class="w-32 text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
+            <p class="w-full text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
                 adipisicing
                 elit.</p>
+                <button class="bg-blue-500 text-white px-4 mt-2 py-1 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Hire Me</button>
         </div>
         <div class="flex flex-col items-center justify-center col-span-1 p-5 bg-white rounded-lg shadow-md">
             <img src="./images/profile.jpg" width="120" height="120" alt="img" class="p-2 rounded-full">
@@ -35,9 +37,10 @@
             <h5>Experience : <span>5 years</span></h5>
             <h6>Rating : <span>5.0</span></h6>
             <h4 class="text-xl font-bold">Skills</h4>
-            <p class="w-32 text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
+            <p class="w-full text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
                 adipisicing
                 elit.</p>
+                <button class="bg-blue-500 text-white px-4 mt-2 py-1 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Hire Me</button>
         </div>
         <div class="flex flex-col items-center justify-center col-span-1 p-5 bg-white rounded-lg shadow-md">
             <img src="./images/profile.jpg" width="120" height="120" alt="img" class="p-2 rounded-full">
@@ -46,9 +49,10 @@
             <h5>Experience : <span>5 years</span></h5>
             <h6>Rating : <span>5.0</span></h6>
             <h4 class="text-xl font-bold">Skills</h4>
-            <p class="w-32 text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
+            <p class="w-full text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
                 adipisicing
                 elit.</p>
+                <button class="bg-blue-500 text-white px-4 mt-2 py-1 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Hire Me</button>
         </div>
         <div class="flex flex-col items-center justify-center col-span-1 p-5 bg-white rounded-lg shadow-md">
             <img src="./images/profile.jpg" width="120" height="120" alt="img" class="p-2 rounded-full">
@@ -57,9 +61,10 @@
             <h5>Experience : <span>5 years</span></h5>
             <h6>Rating : <span>5.0</span></h6>
             <h4 class="text-xl font-bold">Skills</h4>
-            <p class="w-32 text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
+            <p class="w-full text-sm text-justify text-gray-500 text-wrap">Lorem ipsum dolor sit amet consectetur
                 adipisicing
                 elit.</p>
+                <button class="bg-blue-500 text-white px-4 mt-2 py-1 rounded-md w-full hover:bg-blue-800 hover:border-white hover:border-2 hover:font-bold">Hire Me</button>
         </div>
 
 

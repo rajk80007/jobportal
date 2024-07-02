@@ -7,10 +7,13 @@
 
     </div>
     <ul id="menu"
-        class="hidden lg:flex gap-3 flex-col lg:ml-52 lg:flex-row mt-40 md:mt-40 bg-purple-300 lg:bg-transparent lg:mt-0 text-center pb-2 md:pt-0 w-full absolute lg:static lg:w-auto opacity-80 z-10 lg:opacity-100">
-        <li><a href="/" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Home</a></li>
-        <li><a href="/about" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">About</a></li>
-        <li><a href="#" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Services</a>
+        class="hidden lg:flex gap-3 flex-col lg:ml-52 lg:flex-row mt-48 md:mt-48 bg-purple-300 lg:bg-transparent lg:mt-0 text-center pb-2 md:pt-0 w-full absolute lg:static lg:w-auto opacity-80 z-10 lg:opacity-100">
+        <li><a href="/" wire:navigate class="hover:font-bold hover:text-red-400 duration-300 my-8 py-8">Home</a></li>
+        <li><a href="/profiles" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Profiles</a>
+        </li>
+        <li><a href="#" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Jobs</a>
+        </li>
+        <li><a href="#" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Blogs</a>
         </li>
         <li><a href="/contact" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Contact</a>
         </li>

@@ -33,7 +33,7 @@ class RegisterPage extends Component
             $data->password = bcrypt($this->password);
 
             $data->save();
-            $this->message = 'User created successfully';
+            $this->message = 'User created successfully. You can login now';
             $this->reset(['name', 'email', 'password', 'password_confirmation']);
         }
     }

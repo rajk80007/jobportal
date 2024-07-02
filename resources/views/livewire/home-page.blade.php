@@ -332,4 +332,19 @@
     </div>
     {{-- Cat Section Ends --}}
 
+    {{-- Jobs Section Starts --}}
+    <div class="my-12">
+        <livewire:latest-jobs>
+    </div>
+
+    {{-- Jobs Section Ends --}}
+
+    {{-- Testimonials Section Starts --}}
+    <div class="my-12">
+        <livewire:testimonials-page>
+    </div>
+
+
+    {{-- Testimonials Section Ends --}}
+
 </div>
