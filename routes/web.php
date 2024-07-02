@@ -1,9 +1,12 @@
 <?php
 
 use App\Livewire\About;
+use App\Livewire\BlogPage;
 use App\Livewire\CompanyHistory;
+use App\Livewire\ContactPage;
 use App\Livewire\Dashboard;
 use App\Livewire\HomePage;
+use App\Livewire\JobList;
 use App\Livewire\Login;
 use App\Livewire\ProfilePage;
 use App\Livewire\Profiles;
@@ -31,3 +34,13 @@ Route::get('/dashboard', Dashboard::class)->middleware('auth')->name('dashboard'
 Route::get('/company-history', CompanyHistory::class);
 
 Route::get('/profiles', Profiles::class);
+
+Route::get('/jobs-list', JobList::class);
+
+Route::get('/contact', ContactPage::class);
+
+Route::get('/blogs', BlogPage::class);
+
+
+
+

@@ -11,9 +11,9 @@
         <li><a href="/" wire:navigate class="hover:font-bold hover:text-red-400 duration-300 my-8 py-8">Home</a></li>
         <li><a href="/profiles" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Profiles</a>
         </li>
-        <li><a href="#" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Jobs</a>
+        <li><a href="/jobs-list" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Jobs</a>
         </li>
-        <li><a href="#" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Blogs</a>
+        <li><a href="/blogs" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Blogs</a>
         </li>
         <li><a href="/contact" wire:navigate class="p-2 hover:font-bold hover:text-red-400 duration-300">Contact</a>
         </li>
