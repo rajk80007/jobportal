@@ -1,5 +1,15 @@
 <div class="border-2 border-black w-[60%] mx-auto grid-cols-1 gap-2 h-screen mb-2 overflow-y-scroll">
-    <div class="w-full text-black border-2 border-black shadow-xl fill-black shadow-white mx-auto mt-16 hover:border-gray-100">
+    <div class="mx-2">
+        <form action="" class="grid grid-cols-12">
+            <input type="text" placeholder="Role" class="col-span-4 px-2 py-1 rounded-md mx-2 border-2 border-black shadow-xl fill-black shadow-white mt-8 hover:border-gray-100">
+            <input type="number" placeholder="Min Experience" class="col-span-3 px-2 rounded-md mx-2 border-2 border-black shadow-xl fill-black shadow-white mt-8 hover:border-gray-100">
+            <input type="number" placeholder="Max Experience" class="col-span-3 px-2 rounded-md mx-2 border-2 border-black shadow-xl fill-black shadow-white mt-8 hover:border-gray-100">
+            <input type="submit" value="Search" class="col-span-2 cursor-pointer hover:bg-gray-600 hover:text-white px-2 rounded-md mx-2 border-2 border-black shadow-xl fill-black shadow-white mt-8 hover:border-gray-100">
+        </form>
+    </div>
+    <div class="w-full text-black border-2 border-black shadow-xl fill-black shadow-white mx-auto mt-8 hover:border-gray-100">
+        
+        
         <div class="text-black border-2 border-white shadow-xl fill-black p-2">
             <div class="flex justify-center items-start gap-5 bg-red-200 border-2 rounded-lg">
                 <div class="flex flex-col items-center">
